@@ -2,9 +2,10 @@
  * @Author: aspnmy support@e2bank.cn
  * @Date: 2024-09-20 23:50:38
  * @LastEditors: aspnmy support@e2bank.cn
- * @LastEditTime: 2024-09-21 04:15:07
+ * @LastEditTime: 2024-09-21 04:16:26
  * @FilePath: \1Panel_in_podman\README.md
  * @Description: 不改"1Pane面板"代码，使"1Pane面板"、宝塔面板完美支持podman并且可以使"1Pane面板"自带docker-compose编排共存
+ * @Github: https://git.t2be.cn/podAdmin/1Panel_in_podman.git
 -->
 # 1Panel_bt_in_podman （不改"1Pane面板"代码，使"1Pane面板"、宝塔面板完美支持podman并且可以使"1Pane面板"自带docker-compose编排共存）
 ## 项目说明
