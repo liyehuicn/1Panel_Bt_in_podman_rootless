@@ -2,7 +2,7 @@
  * @Author: aspnmy support@e2bank.cn
  * @Date: 2024-09-20 23:50:38
  * @LastEditors: aspnmy support@e2bank.cn
- * @LastEditTime: 2024-09-21 03:56:50
+ * @LastEditTime: 2024-09-21 04:07:42
  * @FilePath: \1Panel_in_podman\README.md
  * @Description: 不改"1Pane面板"代码，使"1Pane面板"、宝塔面板完美支持podman并且可以使"1Pane面板"自带docker-compose编排共存
 -->
@@ -151,8 +151,8 @@ sudo podman -v
 - （注意如果使用其他系统安装的，第一步骤的安装docker环境脚本这个切记不要安装，不然上面的配置全部就失效了）
 - 使用官方支持的系统脚本安装的使用，提示出现已经安装docker环境和docker-compose的，这里别选默认，选N，不安装，不然覆盖配置后兼容性就出错了，虽然有兼容性补丁，但是兼容性补丁不一定能覆盖所以的系统版本，所以从零开始纯净安装是最后的。
 - 宝塔"1Pane面板"组件安装的时候提示，已安装容器环境，请纯净安装，脚本会退出，这里需要修改宝塔安装脚本的命令，也是可以共存环境的
-- 本项目推荐1Panel"1Pane面板"，主要原因目前比较便宜专业版，其次自定义程度高，特别是docker环境配置可以自己设置系统套接字位置，这个会方便一点，
-- 不过使用本项目中的脚本配置以后，直接使用1Panel"1Pane面板"中的默认套接字入口即可：/var/run/docker.sock
+- 本项目推荐1Panel"1Pane主机面板"，主要原因目前比较便宜专业版，其次自定义程度高，特别是docker环境配置可以自己设置系统套接字位置，这个会方便一点，
+- 不过使用本项目中的脚本配置以后，直接使用1Panel"1Pane主机面板"中的默认套接字入口即可：/var/run/docker.sock
 ```bash
 curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && bash quick_start.sh
 ```
@@ -166,11 +166,12 @@ vim /etc/containers/registries.conf
 ```
 - 主要修改加速url和私有库，具体如何查可以参考网络，或者直接下载我维护的系统加速镜像源文件，及自动更新镜像源的自动化脚本
 - https://github.com/aspnmy/mirrors-repolist.git 找到对应的 containers/registries.conf下载覆盖就行
-![加速url和私有化库配置](/images/屏幕截图 2024-09-21 013450.png)
+
+![加速url和私有化库配置](/images/klkklklas.png)
 
 #### 8.2 关闭"1Pane面板"的守护进程，修改cg的启动形式，配置套接字
 
-![关闭"1Pane面板"的守护进程，修改cg的启动形式，配置套接字](/images/企业微信截图_17268557565491.png)
+![关闭"1Pane面板"的守护进程，修改cg的启动形式，配置套接字](/images/sdfs33.png)
 
 #### 8.3 "1Pane面板"前端报错一般说明
 ##### 8.3.1 "服务内部错误: Error response from daemon: Not Found"
