@@ -1,0 +1,2 @@
+# 1Panel_in_podman
+针对centos9以上的机器，让1Panel面板与podman-rootless模式共存，docker-compose模式不受影响
