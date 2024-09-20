@@ -2,7 +2,7 @@
  * @Author: aspnmy support@e2bank.cn
  * @Date: 2024-09-20 23:50:38
  * @LastEditors: aspnmy support@e2bank.cn
- * @LastEditTime: 2024-09-21 04:07:42
+ * @LastEditTime: 2024-09-21 04:15:07
  * @FilePath: \1Panel_in_podman\README.md
  * @Description: 不改"1Pane面板"代码，使"1Pane面板"、宝塔面板完美支持podman并且可以使"1Pane面板"自带docker-compose编排共存
 -->
@@ -167,7 +167,7 @@ vim /etc/containers/registries.conf
 - 主要修改加速url和私有库，具体如何查可以参考网络，或者直接下载我维护的系统加速镜像源文件，及自动更新镜像源的自动化脚本
 - https://github.com/aspnmy/mirrors-repolist.git 找到对应的 containers/registries.conf下载覆盖就行
 
-![加速url和私有化库配置](/images/klkklklas.png)
+![加速url和私有化库配置](/images/asASASa.png)
 
 #### 8.2 关闭"1Pane面板"的守护进程，修改cg的启动形式，配置套接字
 
